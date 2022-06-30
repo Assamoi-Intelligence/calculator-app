@@ -36,6 +36,10 @@ body {
     justify-content: center;
 }
 
+.grid-item span {
+    cursor: pointer;
+}
+
 .screen {
     grid-row: 1 / 2;
     grid-column: 1 / 5;

@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: #263238;
     font-family: Arial, Helvetica, sans-serif;
 }
 .main {
@@ -14,7 +14,8 @@ body {
     margin: auto;
     padding: 0.5rem;
     border-radius: 1rem;
-    /*box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);*/
+    /* box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.12), 0px 4px 5px rgba(0, 0, 0, 0.14), 0px 2px 4px -1px rgba(0, 0, 0, 0.2); */
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.06), 0px 7px 9px rgba(0, 0, 0, 0.12), 0px 20px 25px -8px rgba(0, 0, 0, 0.18);
 }
 
 .calculator {
@@ -45,7 +46,13 @@ body {
     grid-column: 1 / 5;
     background-color: rgb(29, 30, 37);
     border-radius: .5rem;
+    justify-content: end;
+    align-items: end;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
 }
+
+
 
 .equal-sign {
     grid-row: 5 / 7;
@@ -54,7 +61,8 @@ body {
     border-radius: .5rem;
 }
 
-.sign {
+.sign, .op {
     color:rgb(53, 104, 212);
 }
+
 
